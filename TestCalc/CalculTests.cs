@@ -10,7 +10,7 @@ namespace TestCalc
         public void Amount()
         {
             var calcul = Calcul.Compute(6, 7, '+');
-            Assert.Equal(15,calcul);
+            Assert.Equal(13,calcul);
         }
         
         [Fact]
